@@ -1,0 +1,17 @@
+{
+    "require": {
+        "mailgun/mailgun-php": "^3.5",
+        "symfony/http-client": "^6.0",
+        "nyholm/psr7": "^1.5",
+        "phpmailer/phpmailer": "^6.8",
+        "league/oauth2-google": "^4.0",
+        "vlucas/phpdotenv": "*",
+        "catfan/medoo": "^2.1",
+      "ext-pdo": "*"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
