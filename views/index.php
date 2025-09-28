@@ -1,336 +1,461 @@
 <!doctype html>
-<html lang="zxx">
-<head>
-    <?php require("partials/head.php"); ?>
-</head>
+<html class="no-js" lang="zxx">
 
-<body class="page-template-one-page-home">
+<head> <?php require("partials/head.php"); ?></head>
 
-<!-- START PRELOADER AREA -->
-<?php require("partials/loader.php"); ?>
-<!-- END PRELOADER AREA -->
+<body class="">
 
-<!-- START HEADER AREA -->
-<?php require("partials/header.php"); ?>
-<!-- END HEADER AREA -->
+    <!--==============================
+     Preloader
+    ==============================-->
+    <div class="preloader  ">
+       <?php require("partials/preloader.php"); ?>
+    </div>
 
-<!-- START BANNER AREA -->
-<section id="home" class="banner-area">
-    <div class="d-table">
-        <div class="d-table-cell">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="banner-content">
-                            <h1 class="wow fadeInUp" data-wow-delay=".6s">Your safe haven for compassionate care, delivered with dignity, where and how you need it!</h1>
-                            <p class="wow fadeInUp" data-wow-delay=".8s">
-                                <strong class="text-white  d-md-none">
-                                    Safe Haven is a professional healthcare company providing home and community
-                                    support.
-                                </strong>
-                            </p>
+    <!--==============================
+    Mobile Menu
+    ============================== -->
+    <?php require("partials/mobile-menu.php"); ?>
 
-                            <div class="banner-btn wow fadeInUp" data-wow-delay=".9s">
-                                <a class="default-btn" data-target="services">
-                                    View Our Services
-                                </a>
-                                <a data-target="contact" class="default-btn active">
-                                    Contact Us
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <!--==============================
+    Sidemenu
+    ============================== -->
+    <?php require("partials/side-menu.php"); ?>
+    
+    <!--==============================
+        Header Area
+    ==============================-->
+    <?php require("partials/header.php"); ?>
+
+    <!--==============================
+      Hero Area
+    ==============================-->
+    <section class="vs-hero-wrapper6 position-relative" data-bg-src="assets/img/bg/banner-1.jpg">
+        <div class="container-style6">
+            <div class="hero-content6">
+                <span class="sub-title wow fadeInUp" data-wow-delay="200ms">Quality Fostering Starts From here</span>
+                <h1 class="title wow fadeInUp" data-wow-delay="300ms">We Always Put Children First</h1>
+    
+                <a href="#" class="btn-style wow fadeInUp" data-wow-delay="500ms">Explore Our Services</a>
             </div>
         </div>
-    </div>
-</section>
-<!-- END BANNER AREA -->
+    </section>
+    <!-- End hero section -->
 
-<!-- START ABOUT AREA -->
-<section id="about" class="about-area pt-100 pb-70">
-    <div class="container">
-        <div class="row align-items-center">
-            <div data-aos="fade-up" data-aos-duration="1200" class="col-lg-6">
-                <div class="about-content">
-                    <span class="top-title">About Us</span>
-                    <h2>Delivering Quality Health Care</h2>
-                    <p>
-                        At Safe Haven, we believe that "Everyone deserves to live with dignity, independence and peace of mind". Therefore,
-                        we deliver quality home and community-based care, tailored to the unique needs, goals and lifestyle of each user. Whether you're
-                        seeking personal care, medication support, or help reconnecting with your community, our experienced team will provide safe, responsive
-                        and empowering person-centered services.
-                    </p>
-
-                    <ul>
-                        <li>
-                            <i class="bx bx-check"></i>
-                            Safe Haven is registered with the Care Quality Commission (CQC), UK.
-                        </li>
-                        <li>
-                            <i class="bx bx-check"></i>
-                            Safe Haven meets rigorous standards of safety, effectiveness and leadership.
-                        </li>
-                        <li>
-                            <i class="bx bx-check"></i>
-                            Safe Haven collaborates with users to design and deliver person-centered and responsive care.
-                        </li>
-                    </ul>
-
-                    <a href="/about" class="default-btn">
-                        More About Us
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-lg-6">
-                <div class="features-content">
+    <!-- form-section -->
+    <sectiion class="form-section">
+        <div class="container-style6">
+            <form action="#" class="form-wrap1">
+                <div class="form-box-two">
                     <div class="row">
-                        <div data-aos="fade-up" data-aos-duration="1400" class="col-lg-6 col-sm-6">
-                            <div class="single-features">
-                                <i class="flaticon-personal-information"></i>
-                                <h3>Keen attention to healthcare procedures</h3>
-                                <p>Safe Haven adheres to strict healthcare policies and procedures.</p>
-                                <a href="/about" class="read-more">
-                                    Read More
-                                </a>
-                            </div>
+                        <div class="col-xl-6 col-md-6 form-group wow fadeInUp" data-wow-delay="400ms">
+                            <input type="text" class="form-control  style2" placeholder="Your Name">
+                            <i class="fal small fa-user"></i>
                         </div>
-
-                        <div data-aos="fade-up" data-aos-duration="1600" class="col-lg-6 col-sm-6">
-                            <div class="single-features">
-                                <i class="flaticon-doctor"></i>
-                                <h3>Skilled Professionals</h3>
-                                <p>Safe Haven's onboarding process ensures that only experienced and skilled health
-                                    professionals are recruited.
-                                </p>
-                                <a href="/about" class="read-more">
-                                    Read More
-                                </a>
-                            </div>
+                        <div class="col-xl-6 col-md-6 form-group wow fadeInUp" data-wow-delay="500ms">
+                            <input type="email" class="form-control  style2" placeholder="Email Address">
+                            <i class="fal small fa-envelope"></i>
                         </div>
-
-                        <div data-aos="fade-up" data-aos-duration="1800" class="col-lg-6 col-sm-6">
-                            <div class="single-features">
-                                <i class="flaticon-rate"></i>
-                                <h3>Positive Reviews</h3>
-                                <p>Safe Haven always receive positive reviews from clients due to its bespoke and
-                                    dynamic services.</p>
-                                <a href="/about" class="read-more">
-                                    Read More
-                                </a>
-                            </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-xl-12 col-md-12 form-group wow fadeInUp" data-wow-delay="500ms">
+                            <textarea name="message" id="message" cols="30" rows="3" class="form-control style3" placeholder="Message"></textarea>
+                            <i class="fal small fa-pencil-alt"></i>
+                        </div> 
+                    </div>
+                        <div class="row">
+                            <div class="col-xl-4 col-md-6 form-group wow fadeInUp" data-wow-delay="600ms">
+                            <button type="submit" class="btn-style">Send Message</button>
                         </div>
+                        </div>
+                         
+                    </div>
+                </div>
+            </form>
+        </div>
+    </sectiion>
+    <!-- End form section -->
 
-                        <div data-aos="fade-up" data-aos-duration="2000" class="col-lg-6 col-sm-6">
-                            <div class="single-features">
-                                <i class="flaticon-user-experience"></i>
-                                <h3>Thrive with Excellence</h3>
-                                <p>Safe Haven strives to offer excellent and affordable home care support services and
-                                    promote independence</p>
-                                <a href="/about" class="read-more">
-                                    Read More
-                                </a>
-                            </div>
+    <!-- about-section -->
+    <section class="about-section6 custom-top-space space-bottom" data-bg-src="assets/img/bg/">
+        <div class="container-style6">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
+                    <div class="about-content6">
+                        <div class="title-area-two v3">
+                            <span class="sub-title6">Welcome to Kennores Children Home</span>
+                            <h2>We always put children first</h2>
+                            <p>
+                                At Kennores Children Home, we believe every child deserves more than shelter—they deserve a place to feel valued, supported, and inspired to grow. 
+                                Our mission is to create a true home environment where children and young people can build confidence, heal from past 
+                                challenges, and look toward a brighter future.
+                            </p>
+                            <p>
+                               We provide care for children and teens aged 8 to 18, offering a stable foundation built on respect, 
+                               understanding, and compassion. Our approach is both therapeutic and child-focused, ensuring each young person’s unique needs, strengths, 
+                               and aspirations shape the support they receive. 
+                            </p>
+                            <p>
+                               Beyond a safe and welcoming home, Kennores Children Home is committed to preparing children for independence. From developing practical life skills—such as 
+                               cooking, budgeting, and personal care—to learning how to form healthy relationships, manage emotions, and stay safe both online and in the wider community, 
+                               we equip every child to thrive in the world beyond our doors. 
+                            </p>
+                            <p>
+                                At Kennores, we don’t just provide care; we nurture potential and help every child discover the resilience, skills, and confidence they need to create their own success story.
+                            </p>
+                        </div>
+                        
+                        <a href="#" class="btn-style margin-top">Our Services</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
+                    <div class="about-img-6">
+                        <div class="image-box v1">
+                            <img src="assets/img/about/abt-1.jpg" alt="Child with two parents">
+                        </div>
+                        <div class="image-box two">
+                            <img src="assets/img/about/abt-2.jpg" alt="Child with two white parents">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- END ABOUT AREA -->
+    </section>
+    <!-- End about-section -->
 
-<!-- END SERVICES AREA -->
-<section id="services" class="services-area bg-color pt-100 pb-70">
-    <div class="container">
-        <div data-aos="fade-up" data-aos-duration="1200" class="section-title">
-            <h2>Tailored Support <span>That Transforms Lives</span></h2>
-            <p>
-                All services are delivered by vetted professionals under the supervision of our registered manager. We operate in full compliance with CQC's
-                Fundamental Standards, safeguarding protocols, GDPR and data protection regulations. At Safe Haven, we don't just meet standards; we strive to
-                exceed them.
-            </p>
+    <!-- service-section-two -->
+    <section class="service-section-two space">
+        <div class="container-style6">
+            <div class="title-area-two v1 text-center wow fadeInUp" data-wow-delay="400ms">
+                <span class="sub-title6">Our Services</span>
+                <h2>High Quality Serves  For<br> You</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
+                    <div class="service-card6">
+                        <div class="icon-box">
+                            <i class="fa fa-heart"></i>
+                        </div>
+                        <div class="content-box">
+                            <h4 class="title">Safe, Family-Style Living</h4>
+                            <p>
+                                Comfortable, supervised housing that fosters a sense of belonging and security.
+                            </p>
+                            <a href="#" class="more-btn"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="500ms">
+                    <div class="service-card6">
+                        <div class="icon-box">
+                            <i class="fa fa-swords"></i>
+                        </div>
+                        <div class="content-box">
+                            <h4 class="title">Individualized Care Plans</h4>
+                            <p>Tailored support to help every child reach their personal goals and potential.
+                            </p>
+                            <a href="#" class="more-btn"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
+                    <div class="service-card6">
+                        <div class="icon-box">
+                            <i class="fa fa-user"></i>
+                        </div>
+                        <div class="content-box">
+                            <h4 class="title">Educational & Life-Skills Support</h4>
+                            <p>
+                                Tutoring, mentoring, and skills training to build confidence and independence.
+                            </p>
+                            <a href="#" class="more-btn"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="700ms">
+                    <div class="service-card6">
+                        <div class="icon-box">
+                            <i class="fa fa-flask"></i>
+                        </div>
+                        <div class="content-box">
+                            <h4 class="title">Counseling & Emotional Support</h4>
+                            <p>
+                                Professional counseling to help children process experiences and develop resilience.
+                            </p>
+                            <a href="#" class="more-btn"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="800ms">
+                    <div class="service-card6">
+                        <div class="icon-box">
+                            <i class="fa fa-tooth"></i>
+                        </div>
+                        <div class="content-box">
+                            <h4 class="title">Community Integration</h4>
+                            <p>
+                                Activities and partnerships that connect youth to positive role models and community resources.
+                            </p>
+                            <a href="#" class="more-btn"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="btn-box wow fadeInUp" data-wow-delay="400ms">
+                <a href="#" class="btn-style">Make An Appointment</a>
+            </div>
         </div>
+    </section>
+    <!-- End service section -->
 
-        <div class="row">
-            <div data-aos="fade-up" data-aos-duration="1400" class="col-lg-4 col-sm-6">
-                <div class="single-services">
-                    <i class="fa-solid fa-heart-pulse"></i>
-                    <h3>Personal Care</h3>
-                    <p>
-                        Our carers deliver discreet and respectful assistance with bathing, dressing, mobility, and general hygiene, preserving dignity and promoting
-                        independence. We tailor care plans to individual preferences and cultural needs.
-                    </p>
-
-                    <a  class="read-more" data-target="contact">
-                        Enquire More
-                    </a>
-                </div>
+    <!--==============================
+     Project Area
+  ==============================-->
+    <section class="vs-project-wrapper space">
+        <div class="container z-index-common">
+            <div class="project-menu text-center mb-40 filter-menu-active ">
+                <button data-filter="*" class="vs-btn style4 active">All Works</button>
+                <button data-filter=".cat-1" class="vs-btn style4">Heart Topic</button>
+                <button data-filter=".cat-2" class="vs-btn style4">Surgery Topic</button>
+                <button data-filter=".cat-3" class="vs-btn style4">General Topic</button>
             </div>
-
-            <div data-aos="fade-up" data-aos-duration="1600" class="col-lg-4 col-sm-6">
-                <div class="single-services">
-                    <i class="fa-solid fa-wheelchair"></i>
-                    <h3>Medication Monitoring and Support</h3>
-                    <p>
-                        Our trained staff ensure safe medication administration, timely reminders, accurate record=keeping, and follow CQC protocols
-                        and safety standards that support health outcomes and minimise reducing risk. We follow strict protocols aligned with CQC medication
-                        safety standards.
-                    </p>
-
-                    <a  class="read-more" data-target="contact">
-                        Enquire More
-                    </a>
+            <div class="row justify-content-center filter-active">
+                <div class="col-md-6 col-xl-4 filter-item cat-2">
+                    <div class="vs-project-box mb-30">
+                        <div class="project-img">
+                            <img src="assets/img/project/pro-1-1.jpg" alt="Project Image" class="w-100">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-cat fs-xs">New Surgeon</span>
+                            <h4 class="project-name">Heart Surgery</h4>
+                            <a href="assets/img/project/pro-1-1.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-            <div data-aos="fade-up" data-aos-duration="1800" class="col-lg-4 col-sm-6">
-                <div class="single-services">
-                    <i class="fa-solid fa-suitcase-medical"></i>
-                    <h3>Community Integration</h3>
-                    <p>
-                        To reduce isolation and promote meaningful engagement, we support our users in accessing local amenities, attending
-                        social events, and building connections.
-                    </p>
-
-                    <a  class="read-more" data-target="contact">
-                        Enquire More
-                    </a>
+                <div class="col-md-6 col-xl-4 filter-item cat-2 cat-1">
+                    <div class="vs-project-box mb-30">
+                        <div class="project-img">
+                            <img src="assets/img/project/pro-1-2.jpg" alt="Project Image" class="w-100">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-cat fs-xs">Development</span>
+                            <h4 class="project-name">Neurosurgeon</h4>
+                            <a href="assets/img/project/pro-1-2.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-            <div data-aos="fade-up" data-aos-duration="1800" class="col-lg-4 col-sm-6">
-                <div class="single-services">
-                    <i class="fa-solid fa-star"></i>
-                    <h3>Social Support</h3>
-                    <p>
-                        Emotional wellbeing matters. We offer companionship, conversation, and practical support to reduce isolation, promote
-                        wellbeing, help individuals feel valued, heard, and empowered in their daily lives.
-                    </p>
-
-                    <a  class="read-more" data-target="contact">
-                        Enquire More
-                    </a>
+                <div class="col-md-6 col-xl-4 filter-item cat-3">
+                    <div class="vs-project-box mb-30">
+                        <div class="project-img">
+                            <img src="assets/img/project/pro-1-3.jpg" alt="Project Image" class="w-100">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-cat fs-xs">Top Ranked</span>
+                            <h4 class="project-name">Ophthalmic </h4>
+                            <a href="assets/img/project/pro-1-3.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4 filter-item cat-1 cat-3">
+                    <div class="vs-project-box mb-30">
+                        <div class="project-img">
+                            <img src="assets/img/project/pro-1-4.jpg" alt="Project Image" class="w-100">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-cat fs-xs">New Special</span>
+                            <h4 class="project-name">Oculoplastic</h4>
+                            <a href="assets/img/project/pro-1-4.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 filter-item cat-2 cat-3">
+                    <div class="vs-project-box mb-30">
+                        <div class="project-img">
+                            <img src="assets/img/project/pro-1-5.jpg" alt="Project Image" class="w-100">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-cat fs-xs">Development</span>
+                            <h4 class="project-name">Heart Surgery</h4>
+                            <a href="assets/img/project/pro-1-5.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 filter-item cat-2">
+                    <div class="vs-project-box mb-30">
+                        <div class="project-img">
+                            <img src="assets/img/project/pro-1-6.jpg" alt="Project Image" class="w-100">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-cat fs-xs">Endocrinologist</span>
+                            <h4 class="project-name">Nephrologist</h4>
+                            <a href="assets/img/project/pro-1-6.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 filter-item cat-1 cat-2">
+                    <div class="vs-project-box mb-30">
+                        <div class="project-img">
+                            <img src="assets/img/project/pro-1-7.jpg" alt="Project Image" class="w-100">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-cat fs-xs">Neurologist</span>
+                            <h4 class="project-name"> eye surgery</h4>
+                            <a href="assets/img/project/pro-1-7.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 filter-item cat-3">
+                    <div class="vs-project-box mb-30">
+                        <div class="project-img">
+                            <img src="assets/img/project/pro-1-8.jpg" alt="Project Image" class="w-100">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-cat fs-xs">Radiologist</span>
+                            <h4 class="project-name">lung problems</h4>
+                            <a href="assets/img/project/pro-1-8.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 filter-item cat-1">
+                    <div class="vs-project-box mb-30">
+                        <div class="project-img">
+                            <img src="assets/img/project/pro-1-9.jpg" alt="Project Image" class="w-100">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-cat fs-xs">Oncologist</span>
+                            <h4 class="project-name">breath Problem</h4>
+                            <a href="assets/img/project/pro-1-9.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- END SERVICES AREA -->
+    </section>
 
-<!-- START CONTACT FORM AREA -->
-<section id="contact" class="contact-form-area ptb-100">
-    <div class="container">
-        <div data-aos="fade-up" data-aos-duration="1200" class="section-title">
-            <h2>Let's start your care journey - We're just a call away</h2>
-            <p>
-                Family members, commissioners, or health professional, we're here to listen and help. Reach out today and discuss your needs, request
-                a brochure, or arrange a free care consultation.
-            </p>
-        </div>
-        <div class="row">
-            <div data-aos="fade-up" data-aos-duration="1200" class="col-lg-6">
-                <div class="get-in-touch">
-                    <h3>Contact Us</h3>
-                    <ul>
-                        <li>
-                            <div class="icon">
-                                <i class="bx bx-location-plus"></i>
-                            </div>
-                            <span>Address:</span>
-                            Office 4, HQ The Courtyard, 225 Denby Dale road, Wakefield WF2 7AJ
-                        </li>
-                        <li>
-                            <div class="icon">
-                                <i class="bx bx-envelope"></i>
-                            </div>
-                            <span>Email:</span>
-                            admin@safe-haven-healthcare-services.com
-                        </li>
-                        <li>
-                            <div class="icon">
-                                <i class="bx bx-phone-call"></i>
-                            </div>
-                            <span>Phone:</span>
-                            +447886555629
-                        </li>
-                    </ul>
-
-                    <!-- START MAP AREA -->
-                    <!--							<div data-aos="fade-up" data-aos-duration="1600" class="contact-map">-->
-                    <!--								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2360.3729222892957!2d-1.315301934267669!3d53.72943260364841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48796a0aa50d36bb%3A0xf097e5a1fd9d838f!2sElizabeth%20Dr%2C%20Castleford%20WF10%203RR!5e0!3m2!1sen!2suk!4v1679949104270!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
-                    <!--							</div>-->
-                    <!-- END MAP AREA -->
+    <!--==============================
+    Accordion Area
+    ==============================-->
+    <section class="vs-accordion-wrapper space pt-0">
+        <div class="container">
+            <div class="row">
+                <div class="title-area-two faqs-title wow fadeInUp" data-wow-delay="300ms">
+                    <span class="sub-title6">Faq & Answers</span>
+                    <h2>Frequently Asked Any Questions</h2>
                 </div>
-            </div>
-
-            <div data-aos="fade-up" data-aos-duration="1600" class="col-lg-6">
-                <div class="contact-form">
-                    <h3>Drop Us A Message</h3>
-                    <form id="contact-form" action="/requests/processForms.php">
-                        <div class="row">
-                            <div class="col-lg-12 col-sm-12">
-                                <div class="form-group">
-                                    <label>Your Name</label>
-                                    <input type="text" name="name" id="name" class="form-control"
-                                           placeholder="Full name">
-                                </div>
-                            </div>
-
-                            <div class="col-lg-12 col-sm-12">
-                                <div class="form-group">
-                                    <label>Your Email</label>
-                                    <input type="email" name="email" id="email" class="form-control"
-                                           placeholder="Email">
-                                </div>
-                            </div>
-
-                            <div class="col-lg-12 col-sm-12">
-                                <div class="form-group">
-                                    <label>Your Phone</label>
-                                    <input type="tel" name="phone" id="phone" class="form-control" placeholder="Phone">
-                                </div>
-                            </div>
-
-                            <div class="col-lg-12 col-sm-12">
-                                <div class="form-group">
-                                    <label>Subject</label>
-                                    <input type="text" name="subject" id="subject" class="form-control"
-                                           placeholder="Subject">
-                                </div>
-                            </div>
-
-                            <div class="col-lg-12 col-md-12">
-                                <div class="form-group">
-                                    <label>Your Message</label>
-                                    <textarea name="message" class="form-control" id="message" cols="30" rows="8"
-                                              placeholder="Message"></textarea>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-12 col-md-12">
-                                <button type="button" class="default-btn" id="sendMessage">
-                                    Send Message
+                <div class="col-xl-7 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
+                    <div class="vs-accordion two accordion" id="vsaccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                    How to make an appointment?
                                 </button>
+                            </h2>
+                            <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#vsaccordion">
+                                <div class="accordion-body">
+                                    <p>The duration of a service appointment can vary based on the type of service
+                                        required. Simple services like oil changes may take around 30 minutes, while
+                                        more complex repairs could take several hours. Our team will provide you with 
+                                        an estimated time when you schedule your appointment.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </form>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                    Can I trust the medical advice provided on this website?
+                                </button>
+                            </h2>
+                            <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#vsaccordion">
+                                <div class="accordion-body">
+                                    <p>The duration of a service appointment can vary based on the type of service
+                                        required. Simple services like oil changes may take around 30 minutes, while
+                                        more complex repairs could take several hours. Our team will provide you with 
+                                        an estimated time when you schedule your appointment.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                    How can I use this website to find health information?
+                                </button>
+                            </h2>
+                            <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#vsaccordion">
+                                <div class="accordion-body">
+                                    <p>The duration of a service appointment can vary based on the type of service
+                                        required. Simple services like oil changes may take around 30 minutes, while
+                                        more complex repairs could take several hours. Our team will provide you with 
+                                        an estimated time when you schedule your appointment.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                    What should I do if I have a medical emergency?
+                                </button>
+                            </h2>
+                            <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#vsaccordion">
+                                <div class="accordion-body">
+                                    <p>The duration of a service appointment can vary based on the type of service
+                                        required. Simple services like oil changes may take around 30 minutes, while
+                                        more complex repairs could take several hours. Our team will provide you with 
+                                        an estimated time when you schedule your appointment.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                    How often is the content updated on this website?
+                                </button>
+                            </h2>
+                            <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#vsaccordion">
+                                <div class="accordion-body">
+                                    <p>The duration of a service appointment can vary based on the type of service
+                                        required. Simple services like oil changes may take around 30 minutes, while
+                                        more complex repairs could take several hours. Our team will provide you with 
+                                        an estimated time when you schedule your appointment.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="500ms">
+                    <div class="faq-image-box">
+                        <img src="assets/img/event/faq.jpg">
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- END CONTACT FORM AREA -->
+    </section>
+    <!-- Middle Box Area -->
 
-<!-- Footer -->
-<?php require("partials/footer.php"); ?>
+    <!--==============================
+			Footer Area
+	==============================-->
+    <?php require("partials/footer.php"); ?>
 
-<!-- START GO TOP AREA -->
-<?php require("partials/chevronUp.php"); ?>
-<!-- END GO TOP AREA -->
+    <!--********************************
+			Code End  Here 
+	******************************** -->
 
-<!-- Scripts -->
-<?php require("partials/scripts.php"); ?>
+
+    <!-- Scroll To Top -->
+    <a href="#" class="scrollToTop scroll-bottom  style2"><i class="fas fa-arrow-alt-up"></i></a>
+
+
+
+    <!--==============================
+        All Js File
+    ============================== -->
+   <?php require("partials/js.php"); ?>
 </body>
 </html>
