@@ -1,55 +1,63 @@
 <?php
 
-require $_SERVER['DOCUMENT_ROOT'] . "/Http/controllers/requests/Forms.php";
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-// Required classes and configuration
-Forms::getLibraries();
-$config = Forms::getconfigs();
+require 'vendor/autoload.php'; // Ensure PHPMailer is installed via Composer
 
-// Instances of classes
-$response = Forms::getResponseInstance();
-//$db = Forms::getDbInstance($config);
-//$errorLogger = Forms::getErrorLoggerInstance($config);
+// Example config
+$config = [
+    "SMTP_USER" => "elvisasante019@gmail.com",
+    "SMTP_PASSWORD" => "sjehgfokbmukyzoh",
+    "RECEIPIENT" => "admin@kennorescare.com",
+    "RECEIPIENT_NAME" => "Receiver Name"
+];
 
-if ($_SERVER['REQUEST_URI'] === "/join") {
+// Check if form is submitted
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    $data = [
+        "name" => trim($_POST["name"]),
+        "email" => trim($_POST["email"]),
+        "message" => trim($_POST["message"]),
+        "subject" => "New message from " . trim($_POST["name"])
+    ];
 
-    // Gather data from $_POST variable
-    $data = Forms::applicationFormData();
+    $mail = new PHPMailer(true);
 
-    // Initialize the validator and perform validation
-    Forms::applicationFormValidation("Application form validation failure");
+    try {
+        // SMTP setup
+        $mail->isSMTP();
+        $mail->SMTPAuth   = true;
+        $mail->Host       = 'smtp.gmail.com';
+        $mail->Username   = $config["SMTP_USER"];
+        $mail->Password   = $config["SMTP_PASSWORD"];
+        $mail->Port       = 465;
+        $mail->SMTPSecure = "ssl";
+        $mail->isHTML(true);
 
-    // Insert data into the database
-//    $db->create("applications", $data);
+        // Sender (user input)
+        $mail->setFrom($data['email'], $data['name']);
 
-    // Prepare email body
-    $data['emailBody'] = Forms::applicationFormEmailBody($data);
+        // Receiver
+        $mail->addAddress($config["RECEIPIENT"], $config["RECEIPIENT_NAME"]);
 
-    // Send email
-    $data['path'] = $_FILES['file']['tmp_name'];
-    $data['original_path'] = $_FILES['file']['name'];
-    $data['subject'] = "New Application";
-} else {
+        // Content
+        $mail->Subject = $data['subject'];
+        $mail->Body    = "<h3>New message from your website</h3>
+                          <p><strong>Name:</strong> {$data['name']}</p>
+                          <p><strong>Email:</strong> {$data['email']}</p>
+                          <p><strong>Message:</strong><br>{$data['message']}</p>";
+        $mail->AltBody = "New message from your website\n\n" .
+                         "Name: {$data['name']}\n" .
+                         "Email: {$data['email']}\n" .
+                         "Message:\n{$data['message']}";
 
-    // Gather data from $_POST variable
-    $data = Forms::contactFormData();
-
-
-    // Initialize the validator and perform validation
-    Forms::contactFormValidation("Contact form validation fails");
-
-    // Insert data into the database
-//    $db->create("contacts", $data);
-
-    // Prepare email body
-    $data['emailBody'] = Forms::contactFormEmailBody($data);
-
+        $mail->send();
+        echo "Message has been sent successfully!";
+    } catch (Exception $e) {
+        echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    }
 }
+?>
 
-sendEmail($data, $config);
-var_dump('here');
-exit();
-// Send a success response
-$response->setStatusCode(200);
-$response->send();
 
