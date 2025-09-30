@@ -12,7 +12,7 @@
                     <div class="col-auto d-none d-lg-block">
                         <ul class="head-top-links v6 text-end">
                             <li>
-                                <a href="#" class="header-btn v6">Placements</a>
+                                <a href="#contact" class="header-btn v6">Placements</a>
                             </li>
                         </ul>
                     </div>
@@ -28,7 +28,7 @@
                         <div class="row align-items-center justify-content-between">
                             <div class="col-auto">
                                 <div class="header1-logo py-2">
-                                    <a href="index.html"><img src="assets/img/logo.svg" alt="Logo"></a>
+                                    <a href="index.html"><img width="150" height="150" src="assets/img/home/klogo.jpg" alt="Logo"></a>
                                 </div>
                             </div>
                             <div class="col d-lg-flex justify-content-end">
@@ -36,14 +36,17 @@
                                     <span class="fa fa-envelope"></span>
                                     <div class="content-box">
                                         <span class="text-title">Mail Us For Support</span>
-                                        <h6 class="title"><a href="#">support@hospital.com</a></h6>
+                                        <h6 class="title"><a href="mailto:admin@kennorescare.com">admin@kennorescare.com</a></h6>
                                     </div>
                                 </div>
                                 <div class="location-box">
                                     <span class="fa fa-map-marker"></span>
                                     <div class="content-box">
                                         <span class="text-title">Office Address</span>
-                                        <h6 class="title">36D Street Brooklyn, NY</h6>
+                                        <h6 class="title">
+                                            Kennores Healthcare Suite 31-33, The Refinery Sugarmill Business Park,
+                                    432 Dewsbury Rd, LS11 7DF, Leeds
+                                        </h6>
                                     </div>
                                 </div>
                             </div>
@@ -58,30 +61,28 @@
                                 <nav class="main-menu menu-style1 d-none d-lg-block">
                                     <ul>
                                         <li class="">
-                                            <a href=""><span class="has-new-label">About Us</span></a>
+                                            <a href="#about"><span class="has-new-label">About Us</span></a>
                                         </li>
                                         <li>
-                                            <a href="">Our Services</a>
+                                            <a href="#services">Our Services</a>
                                         </li>
                                         <li class="">
-                                            <a href="">Our Homes</a>
+                                            <a href="#home">Our Home</a>
                                             
                                         </li>
+                                        <!-- <li class="">
+                                            <a href="#faq">FAQs</a>
+                                        </li> -->
                                         <li class="">
-                                            <a href="">FAQs</a>
+                                            <a href="#contact">Contact Us</a>
                                         </li>
-                                        <li class="">
-                                            <a href="">Contact Us</a>
-                                        </li>
-                                        <li>
-                                            <a href="contact.html">Contact</a>
-                                        </li>
+                                    
                                     </ul>
                                 </nav>
                                 <button class="vs-menu-toggle d-inline-block d-lg-none"><i class="fas fa-bars"></i></button>
                             </div>
                             <div class="btn-box-six">
-                                <a href="#" class="contact-btn"><i class="fa fa-phone"></i>Call Anytime:669 2568 2596</a>
+                                <a href="#" class="contact-btn"><i class="fa fa-phone"></i>Call Anytime: +447703043588</a>
                             </div>
                         </div>
                     </div>

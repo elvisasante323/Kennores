@@ -17,8 +17,7 @@
 
 
     <!-- Favicons - Place favicon.ico in the root directory -->
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/home/klogo.jpg" type="image/x-icon">
 
     <!--==============================
 	    All CSS File
