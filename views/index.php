@@ -43,17 +43,17 @@
     <!-- End hero section -->
 
     <!-- form-section -->
-    <sectiion class="form-section">
+    <sectiion class="form-section" id="contact">
         <div class="container-style6">
-            <form action="#" class="form-wrap1">
+            <form action="/" class="form-wrap1 ajax-contact">
                 <div class="form-box-two">
                     <div class="row">
                         <div class="col-xl-6 col-md-6 form-group wow fadeInUp" data-wow-delay="400ms">
-                            <input type="text" class="form-control  style2" placeholder="Your Name">
+                            <input type="text" class="form-control  style2" placeholder="Your Name" name="name">
                             <i class="fal small fa-user"></i>
                         </div>
                         <div class="col-xl-6 col-md-6 form-group wow fadeInUp" data-wow-delay="500ms">
-                            <input type="email" class="form-control  style2" placeholder="Email Address">
+                            <input type="email" class="form-control  style2" placeholder="Email Address" name="email">
                             <i class="fal small fa-envelope"></i>
                         </div>
                     </div>
@@ -78,7 +78,7 @@
     <!-- End form section -->
 
     <!-- about-section -->
-    <section class="about-section6 custom-top-space space-bottom" data-bg-src="assets/img/bg/">
+    <section class="about-section6 custom-top-space space-bottom" data-bg-src="assets/img/bg/" id="about">
         <div class="container-style6">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
@@ -125,7 +125,7 @@
     <!-- End about-section -->
 
     <!-- service-section-two -->
-    <section class="service-section-two space">
+    <section class="service-section-two space" id="services">
         <div class="container-style6">
             <div class="title-area-two v1 text-center wow fadeInUp" data-wow-delay="400ms">
                 <span class="sub-title6">Our Services</span>
@@ -187,146 +187,253 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="800ms">
-                    <div class="service-card6">
-                        <div class="icon-box">
-                            <i class="fa fa-tooth"></i>
-                        </div>
-                        <div class="content-box">
-                            <h4 class="title">Community Integration</h4>
-                            <p>
-                                Activities and partnerships that connect youth to positive role models and community resources.
-                            </p>
-                            <a href="#" class="more-btn"><i class="fa fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                
             </div>
             <div class="btn-box wow fadeInUp" data-wow-delay="400ms">
-                <a href="#" class="btn-style">Make An Appointment</a>
+                <a href="#contact" class="btn-style">Make An Appointment</a>
             </div>
         </div>
     </section>
     <!-- End service section -->
 
     <!--==============================
-     Project Area
+     Home
   ==============================-->
-    <section class="vs-project-wrapper space">
-        <div class="container z-index-common">
-            <div class="project-menu text-center mb-40 filter-menu-active ">
-                <button data-filter="*" class="vs-btn style4 active">All Works</button>
-                <button data-filter=".cat-1" class="vs-btn style4">Heart Topic</button>
-                <button data-filter=".cat-2" class="vs-btn style4">Surgery Topic</button>
-                <button data-filter=".cat-3" class="vs-btn style4">General Topic</button>
+    <section class="vs-project-wrapper space" id="home">
+        <div class="title-area-two v1 text-center wow fadeInUp" data-wow-delay="400ms">
+                <span class="sub-title6">Our Home</span>
+                <h3>Good living spaces</h3>
             </div>
+        <div class="container z-index-common">
             <div class="row justify-content-center filter-active">
                 <div class="col-md-6 col-xl-4 filter-item cat-2">
                     <div class="vs-project-box mb-30">
                         <div class="project-img">
-                            <img src="assets/img/project/pro-1-1.jpg" alt="Project Image" class="w-100">
+                            <img src="assets/img/home/h1.jpg" alt="House Image" class="w-100">
                         </div>
                         <div class="project-content">
-                            <span class="project-cat fs-xs">New Surgeon</span>
-                            <h4 class="project-name">Heart Surgery</h4>
-                            <a href="assets/img/project/pro-1-1.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                            <span class="project-name">House</span>
+                            <a href="assets/img/home/h1.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-4 filter-item cat-2 cat-1">
                     <div class="vs-project-box mb-30">
                         <div class="project-img">
-                            <img src="assets/img/project/pro-1-2.jpg" alt="Project Image" class="w-100">
+                            <img src="assets/img/home/h2.jpg" alt="Project Image" class="w-100">
                         </div>
                         <div class="project-content">
-                            <span class="project-cat fs-xs">Development</span>
-                            <h4 class="project-name">Neurosurgeon</h4>
-                            <a href="assets/img/project/pro-1-2.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                            <span class="project-name">House</span>
+                            <a href="assets/img/home/h2.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-4 filter-item cat-3">
                     <div class="vs-project-box mb-30">
                         <div class="project-img">
-                            <img src="assets/img/project/pro-1-3.jpg" alt="Project Image" class="w-100">
+                            <img src="assets/img/home/h3.jpg" alt="Project Image" class="w-100">
                         </div>
                         <div class="project-content">
-                            <span class="project-cat fs-xs">Top Ranked</span>
-                            <h4 class="project-name">Ophthalmic </h4>
-                            <a href="assets/img/project/pro-1-3.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                            <span class="project-name">House</span>
+                            <a href="assets/img/home/h3.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-4 filter-item cat-1 cat-3">
                     <div class="vs-project-box mb-30">
                         <div class="project-img">
-                            <img src="assets/img/project/pro-1-4.jpg" alt="Project Image" class="w-100">
+                            <img src="assets/img/home/h4.jpg" alt="Project Image" class="w-100">
                         </div>
                         <div class="project-content">
-                            <span class="project-cat fs-xs">New Special</span>
-                            <h4 class="project-name">Oculoplastic</h4>
-                            <a href="assets/img/project/pro-1-4.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                            <span class="project-name">Parking</span>
+                            <a href="assets/img/home/h4.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 filter-item cat-2 cat-3">
                     <div class="vs-project-box mb-30">
                         <div class="project-img">
-                            <img src="assets/img/project/pro-1-5.jpg" alt="Project Image" class="w-100">
+                            <img src="assets/img/home/h5.jpg" alt="Project Image" class="w-100">
                         </div>
                         <div class="project-content">
-                            <span class="project-cat fs-xs">Development</span>
-                            <h4 class="project-name">Heart Surgery</h4>
-                            <a href="assets/img/project/pro-1-5.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                            <span class="project-name">Back yard</span>
+                            <a href="assets/img/home/h5.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 filter-item cat-2">
                     <div class="vs-project-box mb-30">
                         <div class="project-img">
-                            <img src="assets/img/project/pro-1-6.jpg" alt="Project Image" class="w-100">
+                            <img src="assets/img/home/h6.jpg" alt="Project Image" class="w-100">
                         </div>
                         <div class="project-content">
-                            <span class="project-cat fs-xs">Endocrinologist</span>
-                            <h4 class="project-name">Nephrologist</h4>
-                            <a href="assets/img/project/pro-1-6.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                            <span class="project-name">Back of house</span>
+                            <a href="assets/img/home/h6.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 filter-item cat-1 cat-2">
                     <div class="vs-project-box mb-30">
                         <div class="project-img">
-                            <img src="assets/img/project/pro-1-7.jpg" alt="Project Image" class="w-100">
+                            <img src="assets/img/home/lr-1.jpg" alt="Project Image" class="w-100">
                         </div>
                         <div class="project-content">
-                            <span class="project-cat fs-xs">Neurologist</span>
-                            <h4 class="project-name"> eye surgery</h4>
-                            <a href="assets/img/project/pro-1-7.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                            <span class="project-name">Living room</span>
+                            <a href="assets/img/home/lr-1.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 filter-item cat-3">
                     <div class="vs-project-box mb-30">
                         <div class="project-img">
-                            <img src="assets/img/project/pro-1-8.jpg" alt="Project Image" class="w-100">
+                            <img src="assets/img/home/lr-2.jpg" alt="Project Image" class="w-100">
                         </div>
                         <div class="project-content">
-                            <span class="project-cat fs-xs">Radiologist</span>
-                            <h4 class="project-name">lung problems</h4>
-                            <a href="assets/img/project/pro-1-8.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                            <span class="project-name">Living room</span>
+                            <a href="assets/img/home/lr-2.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 filter-item cat-1">
                     <div class="vs-project-box mb-30">
                         <div class="project-img">
-                            <img src="assets/img/project/pro-1-9.jpg" alt="Project Image" class="w-100">
+                            <img src="assets/img/home/lr-3.jpg" alt="Project Image" class="w-100">
                         </div>
                         <div class="project-content">
-                            <span class="project-cat fs-xs">Oncologist</span>
-                            <h4 class="project-name">breath Problem</h4>
-                            <a href="assets/img/project/pro-1-9.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                            <span class="project-name">Living room</span>
+                            <a href="assets/img/home/lr-3.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 filter-item cat-1">
+                    <div class="vs-project-box mb-30">
+                        <div class="project-img">
+                            <img src="assets/img/home/r1.jpg" alt="Project Image" class="w-100">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-name">Bedroom</span>
+                            <a href="assets/img/home/r1.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 filter-item cat-1">
+                    <div class="vs-project-box mb-30">
+                        <div class="project-img">
+                            <img src="assets/img/home/r2.jpg" alt="Project Image" class="w-100">
+                        </div>
+                        <div class="project-content">
+                           <span class="project-name">Bedroom</span>
+                            <a href="assets/img/home/r2.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 filter-item cat-1">
+                    <div class="vs-project-box mb-30">
+                        <div class="project-img">
+                            <img src="assets/img/home/bt1.jpg" alt="Project Image" class="w-100">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-name">Toilet and bath</span>
+                            <a href="assets/img/home/bt1.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-6 col-lg-4 filter-item cat-1">
+                    <div class="vs-project-box mb-30">
+                        <div class="project-img">
+                            <img src="assets/img/home/bt1.jpg" alt="Project Image" class="w-100">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-name">Toilet and bath</span>
+                            <a href="assets/img/home/bt1.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-6 col-lg-4 filter-item cat-1">
+                    <div class="vs-project-box mb-30">
+                        <div class="project-img">
+                            <img src="assets/img/home/bt-2.jpg" alt="Project Image" class="w-100">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-name">Toilet and bath</span>
+                            <a href="assets/img/home/bt-2.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-6 col-lg-4 filter-item cat-1">
+                    <div class="vs-project-box mb-30">
+                        <div class="project-img">
+                            <img src="assets/img/home/bt-3.jpg" alt="Project Image" class="w-100">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-name">Toilet and bath</span>
+                            <a href="assets/img/home/bt-3.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-6 col-lg-4 filter-item cat-1">
+                    <div class="vs-project-box mb-30">
+                        <div class="project-img">
+                            <img src="assets/img/home/bt-4.jpg" alt="Project Image" class="w-100">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-name">Toilet and bath</span>
+                            <a href="assets/img/home/bt-4.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-6 col-lg-4 filter-item cat-1">
+                    <div class="vs-project-box mb-30">
+                        <div class="project-img">
+                            <img src="assets/img/home/br-3.jpg" alt="Project Image" class="w-100">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-name">Bedroom</span>
+                            <a href="assets/img/home/br-3.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-6 col-lg-4 filter-item cat-1">
+                    <div class="vs-project-box mb-30">
+                        <div class="project-img">
+                            <img src="assets/img/home/br-2.jpg" alt="Project Image" class="w-100">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-name">Bedroom</span>
+                            <a href="assets/img/home/br-2.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-6 col-lg-4 filter-item cat-1">
+                    <div class="vs-project-box mb-30">
+                        <div class="project-img">
+                            <img src="assets/img/home/br-1.jpg" alt="Project Image" class="w-100">
+                        </div>
+                        <div class="project-content">
+                           <span class="project-name">Bedroom</span>
+                            <a href="assets/img/home/br-1.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 filter-item cat-1">
+                    <div class="vs-project-box mb-30">
+                        <div class="project-img">
+                            <img src="assets/img/home/ut-2.jpg" alt="Project Image" class="w-100">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-name">Laundry room</span>
+                            <a href="assets/img/home/ut-2.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 filter-item cat-1">
+                    <div class="vs-project-box mb-30">
+                        <div class="project-img">
+                            <img src="assets/img/home/ut-1.jpg" alt="Project Image" class="w-100">
+                        </div>
+                        <div class="project-content">
+                           <span class="project-name">Ironing room</span>
+                            <a href="assets/img/home/ut-1.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
@@ -337,12 +444,12 @@
     <!--==============================
     Accordion Area
     ==============================-->
-    <section class="vs-accordion-wrapper space pt-0">
+    <!-- <section class="vs-accordion-wrapper space pt-0" id="">
         <div class="container">
             <div class="row">
                 <div class="title-area-two faqs-title wow fadeInUp" data-wow-delay="300ms">
-                    <span class="sub-title6">Faq & Answers</span>
-                    <h2>Frequently Asked Any Questions</h2>
+                    <span class="sub-title6">Any question?</span>
+                    <h2>FAQs</h2>
                 </div>
                 <div class="col-xl-7 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
                     <div class="vs-accordion two accordion" id="vsaccordion">
@@ -435,7 +542,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Middle Box Area -->
 
     <!--==============================
