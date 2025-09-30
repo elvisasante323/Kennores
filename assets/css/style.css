@@ -109,7 +109,7 @@ Version: 1.0.0
 /*------------------- 1.4. Typography -------------------*/
 html,
 body {
-  scroll-behavior: auto !important;
+  scroll-behavior: smooth !important;
 }
 
 body {
@@ -125,6 +125,13 @@ body {
 iframe {
   border: none;
   width: 100%;
+}
+
+
+.fa-eye{
+    position: absolute !important;
+    bottom: 7rem !important;
+    right: 5rem !important;
 }
 
 .slick-slide:focus,
