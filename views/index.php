@@ -84,10 +84,10 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
                     <div class="about-content6">
                         <div class="title-area-two v3">
-                            <span class="sub-title6">Welcome to Kennores Children Home</span>
+                            <span class="sub-title6">Welcome to Kennores Care</span>
                             <h2>We always put children first</h2>
                             <p>
-                                At Kennores Children Home, we believe every child deserves more than shelter—they deserve a place to feel valued, supported, and inspired to grow. 
+                                At Kennores Care, we believe every child deserves more than shelter—they deserve a place to feel valued, supported, and inspired to grow. 
                                 Our mission is to create a true home environment where children and young people can build confidence, heal from past 
                                 challenges, and look toward a brighter future.
                             </p>
@@ -97,7 +97,7 @@
                                and aspirations shape the support they receive. 
                             </p>
                             <p>
-                               Beyond a safe and welcoming home, Kennores Children Home is committed to preparing children for independence. From developing practical life skills—such as 
+                               Beyond a safe and welcoming home, Kennores Care is committed to preparing children for independence. From developing practical life skills—such as 
                                cooking, budgeting, and personal care—to learning how to form healthy relationships, manage emotions, and stay safe both online and in the wider community, 
                                we equip every child to thrive in the world beyond our doors. 
                             </p>
@@ -238,205 +238,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-xl-4 filter-item cat-1 cat-3">
-                    <div class="vs-project-box mb-30">
-                        <div class="project-img">
-                            <img src="assets/img/home/h4.jpg" alt="Project Image" class="w-100">
-                        </div>
-                        <div class="project-content">
-                            <span class="project-name">Parking</span>
-                            <a href="assets/img/home/h4.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 filter-item cat-2 cat-3">
-                    <div class="vs-project-box mb-30">
-                        <div class="project-img">
-                            <img src="assets/img/home/h5.jpg" alt="Project Image" class="w-100">
-                        </div>
-                        <div class="project-content">
-                            <span class="project-name">Back yard</span>
-                            <a href="assets/img/home/h5.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 filter-item cat-2">
-                    <div class="vs-project-box mb-30">
-                        <div class="project-img">
-                            <img src="assets/img/home/h6.jpg" alt="Project Image" class="w-100">
-                        </div>
-                        <div class="project-content">
-                            <span class="project-name">Back of house</span>
-                            <a href="assets/img/home/h6.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 filter-item cat-1 cat-2">
-                    <div class="vs-project-box mb-30">
-                        <div class="project-img">
-                            <img src="assets/img/home/lr-1.jpg" alt="Project Image" class="w-100">
-                        </div>
-                        <div class="project-content">
-                            <span class="project-name">Living room</span>
-                            <a href="assets/img/home/lr-1.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 filter-item cat-3">
-                    <div class="vs-project-box mb-30">
-                        <div class="project-img">
-                            <img src="assets/img/home/lr-2.jpg" alt="Project Image" class="w-100">
-                        </div>
-                        <div class="project-content">
-                            <span class="project-name">Living room</span>
-                            <a href="assets/img/home/lr-2.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 filter-item cat-1">
-                    <div class="vs-project-box mb-30">
-                        <div class="project-img">
-                            <img src="assets/img/home/lr-3.jpg" alt="Project Image" class="w-100">
-                        </div>
-                        <div class="project-content">
-                            <span class="project-name">Living room</span>
-                            <a href="assets/img/home/lr-3.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 filter-item cat-1">
-                    <div class="vs-project-box mb-30">
-                        <div class="project-img">
-                            <img src="assets/img/home/r1.jpg" alt="Project Image" class="w-100">
-                        </div>
-                        <div class="project-content">
-                            <span class="project-name">Bedroom</span>
-                            <a href="assets/img/home/r1.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 filter-item cat-1">
-                    <div class="vs-project-box mb-30">
-                        <div class="project-img">
-                            <img src="assets/img/home/r2.jpg" alt="Project Image" class="w-100">
-                        </div>
-                        <div class="project-content">
-                           <span class="project-name">Bedroom</span>
-                            <a href="assets/img/home/r2.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 filter-item cat-1">
-                    <div class="vs-project-box mb-30">
-                        <div class="project-img">
-                            <img src="assets/img/home/bt1.jpg" alt="Project Image" class="w-100">
-                        </div>
-                        <div class="project-content">
-                            <span class="project-name">Toilet and bath</span>
-                            <a href="assets/img/home/bt1.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                 <div class="col-md-6 col-lg-4 filter-item cat-1">
-                    <div class="vs-project-box mb-30">
-                        <div class="project-img">
-                            <img src="assets/img/home/bt1.jpg" alt="Project Image" class="w-100">
-                        </div>
-                        <div class="project-content">
-                            <span class="project-name">Toilet and bath</span>
-                            <a href="assets/img/home/bt1.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                 <div class="col-md-6 col-lg-4 filter-item cat-1">
-                    <div class="vs-project-box mb-30">
-                        <div class="project-img">
-                            <img src="assets/img/home/bt-2.jpg" alt="Project Image" class="w-100">
-                        </div>
-                        <div class="project-content">
-                            <span class="project-name">Toilet and bath</span>
-                            <a href="assets/img/home/bt-2.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                 <div class="col-md-6 col-lg-4 filter-item cat-1">
-                    <div class="vs-project-box mb-30">
-                        <div class="project-img">
-                            <img src="assets/img/home/bt-3.jpg" alt="Project Image" class="w-100">
-                        </div>
-                        <div class="project-content">
-                            <span class="project-name">Toilet and bath</span>
-                            <a href="assets/img/home/bt-3.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                 <div class="col-md-6 col-lg-4 filter-item cat-1">
-                    <div class="vs-project-box mb-30">
-                        <div class="project-img">
-                            <img src="assets/img/home/bt-4.jpg" alt="Project Image" class="w-100">
-                        </div>
-                        <div class="project-content">
-                            <span class="project-name">Toilet and bath</span>
-                            <a href="assets/img/home/bt-4.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                 <div class="col-md-6 col-lg-4 filter-item cat-1">
-                    <div class="vs-project-box mb-30">
-                        <div class="project-img">
-                            <img src="assets/img/home/br-3.jpg" alt="Project Image" class="w-100">
-                        </div>
-                        <div class="project-content">
-                            <span class="project-name">Bedroom</span>
-                            <a href="assets/img/home/br-3.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                 <div class="col-md-6 col-lg-4 filter-item cat-1">
-                    <div class="vs-project-box mb-30">
-                        <div class="project-img">
-                            <img src="assets/img/home/br-2.jpg" alt="Project Image" class="w-100">
-                        </div>
-                        <div class="project-content">
-                            <span class="project-name">Bedroom</span>
-                            <a href="assets/img/home/br-2.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                 <div class="col-md-6 col-lg-4 filter-item cat-1">
-                    <div class="vs-project-box mb-30">
-                        <div class="project-img">
-                            <img src="assets/img/home/br-1.jpg" alt="Project Image" class="w-100">
-                        </div>
-                        <div class="project-content">
-                           <span class="project-name">Bedroom</span>
-                            <a href="assets/img/home/br-1.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 filter-item cat-1">
-                    <div class="vs-project-box mb-30">
-                        <div class="project-img">
-                            <img src="assets/img/home/ut-2.jpg" alt="Project Image" class="w-100">
-                        </div>
-                        <div class="project-content">
-                            <span class="project-name">Laundry room</span>
-                            <a href="assets/img/home/ut-2.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 filter-item cat-1">
-                    <div class="vs-project-box mb-30">
-                        <div class="project-img">
-                            <img src="assets/img/home/ut-1.jpg" alt="Project Image" class="w-100">
-                        </div>
-                        <div class="project-content">
-                           <span class="project-name">Ironing room</span>
-                            <a href="assets/img/home/ut-1.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </section>

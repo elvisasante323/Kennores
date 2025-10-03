@@ -5,7 +5,7 @@
                 <div class="row justify-content-center justify-content-lg-between justify-content-md-start align-items-center">
                     <div class="col-auto">
                         <ul class="header-top-info v6 list-unstyled m-0">
-                            <li>Welcome To Kennores Children Home - Helping Young Lives Flourish</li>
+                            <li>Welcome To Kennores Care - Helping Young Lives Flourish</li>
                             <li><i class="far fa-clock"></i>Mon - Fri: 8:00 am - 7:00 pm</li>
                         </ul>
                     </div>

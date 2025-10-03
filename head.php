@@ -1,6 +1,6 @@
 <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Kennores Care Home</title>
+    <title>Kennores Children Home</title>
     <meta name="author" content="Vecuro">
     <meta name="description" content="Medixi - Medical and Health Care HTML Template">
     <meta name="keywords" content="Medixi - Medical and Health Care HTML Template">

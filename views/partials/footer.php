@@ -21,7 +21,7 @@
                             <h3 class="widget_title">About Us</h3>
                             <div class="vs-widget-about">
                                 <p>
-                                    At Kennores Children Home, we believe every child deserves more than shelter—they deserve a place to feel valued, 
+                                    At Kennores Care Home, we believe every child deserves more than shelter—they deserve a place to feel valued, 
                                     supported, and inspired to grow. 
                                 </p>
                                 <h4><a class="text-theme hover-white" href="tel:693232512456"><i class="fas fa-phone-volume me-2 pe-1"></i>+447703043588</a></h4>
@@ -70,7 +70,7 @@
             <div class="container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto text-center text-md-end">
-                        <p class="mb-0 text-white">Copyright <i class="fal fa-copyright"></i> 2024 All rights reserved by Kennores Children Home.</p>
+                        <p class="mb-0 text-white">Copyright <i class="fal fa-copyright"></i> 2024 All rights reserved by Kennores Care Home.</p>
                     </div>
                     <div class="col-auto d-none d-md-block">
                         <ul class="footer-bottom-menu">
