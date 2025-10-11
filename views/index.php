@@ -225,7 +225,7 @@
                             <img src="assets/img/home/h2.jpg" alt="Project Image" class="w-100">
                         </div>
                         <div class="project-content">
-                            <span class="project-name">House</span>
+                            <a href="/our-home"><span class="project-name">See more</span></a>
                             <a href="assets/img/home/h2.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
                         </div>
                     </div>
@@ -236,7 +236,7 @@
                             <img src="assets/img/home/h3.jpg" alt="Project Image" class="w-100">
                         </div>
                         <div class="project-content">
-                            <span class="project-name">House</span>
+                           <a href="/our-home"><span class="project-name">See more</span></a>
                             <a href="assets/img/home/h3.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
                         </div>
                     </div>
