@@ -60,21 +60,41 @@
                             <div class="nav-box">
                                 <nav class="main-menu menu-style1 d-none d-lg-block">
                                     <ul>
+                                        <li><a href="/">Home</a></li>
                                         <li class="">
-                                            <a href="#about"><span class="has-new-label">About Us</span></a>
+                                            <?php if ($_SERVER['REQUEST_URI'] === "/"): ?>
+                                                    <a href="#about"><span class="has-new-label">About Us</span></a>
+                                            <?php endif; ?>
+                                           <?php if ($_SERVER['REQUEST_URI'] === "/our-home"): ?>
+                                                    <a href="/#about"><span class="has-new-label">About Us</span></a>
+                                            <?php endif; ?>
                                         </li>
                                         <li>
-                                            <a href="#services">Our Services</a>
+                                                <?php if ($_SERVER['REQUEST_URI'] === "/"): ?>
+                                                    <a href="#services"><span class="has-new-label">Our services</span></a>
+                                            <?php endif; ?>
+                                           <?php if ($_SERVER['REQUEST_URI'] === "/our-home"): ?>
+                                                    <a href="/#services"><span class="has-new-label">Our services</span></a>
+                                            <?php endif; ?>
                                         </li>
                                         <li class="">
-                                            <a href="#home">Our Home</a>
-                                            
+                                             <?php if ($_SERVER['REQUEST_URI'] === "/"): ?>
+                                                    <a href="/our-home">Our Home</a>
+                                            <?php endif; ?>
+                                           <?php if ($_SERVER['REQUEST_URI'] === "/our-home"): ?>
+                                                    <a href="#home"><span class="has-new-label">Our Home</span></a>
+                                            <?php endif; ?>
                                         </li>
                                         <!-- <li class="">
                                             <a href="#faq">FAQs</a>
                                         </li> -->
                                         <li class="">
-                                            <a href="#contact">Contact Us</a>
+                                              <?php if ($_SERVER['REQUEST_URI'] === "/"): ?>
+                                                    <a href="#contact">Contact Us</a>
+                                            <?php endif; ?>
+                                           <?php if ($_SERVER['REQUEST_URI'] === "/our-home"): ?>
+                                                    <a href="/#contact"><span class="has-new-label">Contact Us</span></a>
+                                            <?php endif; ?>
                                         </li>
                                     
                                     </ul>

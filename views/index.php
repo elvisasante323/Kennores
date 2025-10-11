@@ -33,7 +33,7 @@
     <section class="vs-hero-wrapper6 position-relative" data-bg-src="assets/img/bg/banner-1.jpg">
         <div class="container-style6">
             <div class="hero-content6">
-                <span class="sub-title wow fadeInUp" data-wow-delay="200ms">Quality Fostering Starts From here</span>
+                <span class="sub-title wow fadeInUp" data-wow-delay="200ms">Quality Care here</span>
                 <h1 class="title wow fadeInUp" data-wow-delay="300ms">We Always Put Children First</h1>
     
                 <a href="#" class="btn-style wow fadeInUp" data-wow-delay="500ms">Explore Our Services</a>
@@ -201,7 +201,10 @@
     <section class="vs-project-wrapper space" id="home">
         <div class="title-area-two v1 text-center wow fadeInUp" data-wow-delay="400ms">
                 <span class="sub-title6">Our Home</span>
-                <h3>Good living spaces</h3>
+                <p>
+                    Each home is run by a dedicated team of care professionals who are genuinely passionate about creating a warm, 
+                    stable, and nurturing environment where every young child feels a genuine sense of belonging.
+                </p>
             </div>
         <div class="container z-index-common">
             <div class="row justify-content-center filter-active">
@@ -211,7 +214,7 @@
                             <img src="assets/img/home/h1.jpg" alt="House Image" class="w-100">
                         </div>
                         <div class="project-content">
-                            <span class="project-name">House</span>
+                            <a href="/our-home"><span class="project-name">See more</span></a>
                             <a href="assets/img/home/h1.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
                         </div>
                     </div>
