@@ -36,14 +36,14 @@
                 <span class="sub-title wow fadeInUp" data-wow-delay="200ms">Quality Care here</span>
                 <h1 class="title wow fadeInUp" data-wow-delay="300ms">We Always Put Children First</h1>
     
-                <a href="#" class="btn-style wow fadeInUp" data-wow-delay="500ms">Explore Our Services</a>
+                <a href="#services" class="btn-style wow fadeInUp" data-wow-delay="500ms">Explore Our Services</a>
             </div>
         </div>
     </section>
     <!-- End hero section -->
 
     <!-- form-section -->
-    <sectiion class="form-section" id="contact">
+    <!-- <sectiion class="form-section" id="contact">
         <div class="container-style6">
             <form action="/" class="form-wrap1 ajax-contact">
                 <div class="form-box-two">
@@ -74,7 +74,7 @@
                 </div>
             </form>
         </div>
-    </sectiion>
+    </sectiion> -->
     <!-- End form section -->
 
     <!-- about-section -->
@@ -92,7 +92,7 @@
                                 challenges, and look toward a brighter future.
                             </p>
                             <p>
-                               We provide care for children and teens aged 8 to 18, offering a stable foundation built on respect, 
+                               We provide care for children, offering a stable foundation built on respect, 
                                understanding, and compassion. Our approach is both therapeutic and child-focused, ensuring each young person’s unique needs, strengths, 
                                and aspirations shape the support they receive. 
                             </p>
@@ -245,110 +245,6 @@
             </div>
         </div>
     </section>
-
-    <!--==============================
-    Accordion Area
-    ==============================-->
-    <!-- <section class="vs-accordion-wrapper space pt-0" id="">
-        <div class="container">
-            <div class="row">
-                <div class="title-area-two faqs-title wow fadeInUp" data-wow-delay="300ms">
-                    <span class="sub-title6">Any question?</span>
-                    <h2>FAQs</h2>
-                </div>
-                <div class="col-xl-7 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
-                    <div class="vs-accordion two accordion" id="vsaccordion">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                    How to make an appointment?
-                                </button>
-                            </h2>
-                            <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#vsaccordion">
-                                <div class="accordion-body">
-                                    <p>The duration of a service appointment can vary based on the type of service
-                                        required. Simple services like oil changes may take around 30 minutes, while
-                                        more complex repairs could take several hours. Our team will provide you with 
-                                        an estimated time when you schedule your appointment.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                    Can I trust the medical advice provided on this website?
-                                </button>
-                            </h2>
-                            <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#vsaccordion">
-                                <div class="accordion-body">
-                                    <p>The duration of a service appointment can vary based on the type of service
-                                        required. Simple services like oil changes may take around 30 minutes, while
-                                        more complex repairs could take several hours. Our team will provide you with 
-                                        an estimated time when you schedule your appointment.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                    How can I use this website to find health information?
-                                </button>
-                            </h2>
-                            <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#vsaccordion">
-                                <div class="accordion-body">
-                                    <p>The duration of a service appointment can vary based on the type of service
-                                        required. Simple services like oil changes may take around 30 minutes, while
-                                        more complex repairs could take several hours. Our team will provide you with 
-                                        an estimated time when you schedule your appointment.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                    What should I do if I have a medical emergency?
-                                </button>
-                            </h2>
-                            <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#vsaccordion">
-                                <div class="accordion-body">
-                                    <p>The duration of a service appointment can vary based on the type of service
-                                        required. Simple services like oil changes may take around 30 minutes, while
-                                        more complex repairs could take several hours. Our team will provide you with 
-                                        an estimated time when you schedule your appointment.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                                    How often is the content updated on this website?
-                                </button>
-                            </h2>
-                            <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#vsaccordion">
-                                <div class="accordion-body">
-                                    <p>The duration of a service appointment can vary based on the type of service
-                                        required. Simple services like oil changes may take around 30 minutes, while
-                                        more complex repairs could take several hours. Our team will provide you with 
-                                        an estimated time when you schedule your appointment.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-5 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="500ms">
-                    <div class="faq-image-box">
-                        <img src="assets/img/event/faq.jpg">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- Middle Box Area -->
 
     <!--==============================
 			Footer Area

@@ -28,7 +28,7 @@
                         <div class="row align-items-center justify-content-between">
                             <div class="col-auto">
                                 <div class="header1-logo py-2">
-                                    <a href="index.html"><img width="150" height="150" src="assets/img/home/klogo.jpg" alt="Logo"></a>
+                                    <a href="/"><img width="150" height="150" src="assets/img/home/klogo.jpg" alt="Logo"></a>
                                 </div>
                             </div>
                             <div class="col d-lg-flex justify-content-end">
